@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet"> 
+  <style>
+    input[type="text"] {
+      font-size: 24px;
+      line-height: 1;
+      color: #000;
+      border: none;
+      outline: transparent;
+      -webkit-tap-highlight-color: none;
+      background-color: transparent;
+      font-family: 'Kalam', cursive;
+    }
+
+    input::placeholder {
+      color: rgb(150,150,150);
+      opacity: 1;
+    }
+
+    .login-username-input {
+      position: absolute;
+      left: 45.5%;
+      top: 41.3%;
+      width: 14%;
+      height: 5%;
+    }
+
+    .login-password-input {
+      position: absolute;
+      left: 45.5%;
+      top: 50.8%;
+      width: 14%;
+      height: 5%;
+    }
+
+    #Dialog {
+      visibility: hidden;
+    }
+
+    #Avatar-M:hover+#Dialog {
+      visibility: visible;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <svg width="1004" height="588" viewBox="0 0 1004 588" fill="none" xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g id="LoginPage">
+        <rect width="1004" height="588" fill="white" />
+        <rect id="Background" x="82" y="4" width="851.5" height="456.25" fill="url(#pattern6)" />
+        <!-- <rect id="Hint-Password" x="462" y="304" width="66" height="20" fill="url(#pattern0)" />
+        <rect id="Hint-Username" x="459" y="248" width="85.75" height="19.75" fill="url(#pattern1)" /> -->
+        <!-- <rect id="HSBC-LOGO" x="400" y="20" width="200" height="28" fill="url(#pattern2)" /> -->
+        <a  href="#"><rect class="hover-pointer" id="Link-Forget" x="441" y="430" width="106.5" height="14" fill="url(#pattern3)" /></a>
+        <!-- <rect id="Avatar-F" x="450" y="80" width="110.75" height="110.75" fill="url(#pattern4)" /> -->
+        <rect id="Avatar-M" x="449" y="80" width="111" height="111" fill="url(#pattern5)" />
+        <rect id="Dialog" x="586" y="123" width="212.25" height="92" fill="url(#pattern9)" />
+        <a class="hover-opacity" href="./transfer.html"><rect id="Button-Login" x="400" y="360" width="215.25" height="43.5" fill="url(#pattern7)" /></a>
+        <rect id="CitiBank-LOGO" x="399" y="5" width="235.75" height="54.75" fill="url(#pattern8)" />
+      </g>
+      <defs>
+        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+          <use xlink:href="#image0" transform="scale(0.00378788 0.0125)" />
+        </pattern>
+        <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+          <use xlink:href="#image1" transform="scale(0.00291545 0.0126582)" />
+        </pattern>
+        <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+          <use xlink:href="#image2" transform="scale(0.00125 0.00892857)" />
+        </pattern>
+        <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
+          <use xlink:href="#image3" transform="scale(0.00234742 0.0178571)" />
+        </pattern>
+        <pattern id="pattern4" patternContentUnits="objectBoundingBox" width="1" height="1">
+          <use xlink:href="#image4" transform="scale(0.00225734)" />
+        </pattern>
+        <pattern id="pattern5" patternContentUnits="objectBoundingBox" width="1" height="1">
+          <use xlink:href="#image5" transform="scale(0.00225225)" />
+        </pattern>
+        <pattern id="pattern6" patternContentUnits="objectBoundingBox" width="1" height="1">
+          <use xlink:href="#image6" transform="scale(0.0002936 0.000547945)" />
+        </pattern>
+        <pattern id="pattern7" patternContentUnits="objectBoundingBox" width="1" height="1">
+          <use xlink:href="#image7" transform="scale(0.00116144 0.00574713)" />
+        </pattern>
+        <pattern id="pattern8" patternContentUnits="objectBoundingBox" width="1" height="1">
+          <use xlink:href="#image8" transform="scale(0.00106045 0.00456621)" />
+        </pattern>
+        <pattern id="pattern9" patternContentUnits="objectBoundingBox" width="1" height="1">
+          <use xlink:href="#image9" transform="scale(0.00117786 0.00271739)" />
+        </pattern>
+
+        <!-- <image id="image0" width="264" height="80" xlink:href="./images/LoginPage/Hint-Password.png" />
+        <image id="image1" width="343" height="79" xlink:href="./images/LoginPage/Hint-Username.png" /> -->
+        <image id="image2" width="800" height="112" xlink:href="./images/LoginPage/HSBC-LOGO.png" />
+        <image id="image3" width="426" height="56" xlink:href="./images/LoginPage/Link-Forget.png" />
+        <image id="image4" width="443" height="443" xlink:href="./images/LoginPage/Avatar-F.png" />
+        <image id="image5" width="444" height="444" xlink:href="./images/LoginPage/Avatar-M.png" />
+        <image id="image6" width="3406" height="1825" xlink:href="./images/LoginPage/Background.png" />
+        <image id="image7" width="861" height="174" xlink:href="./images/LoginPage/Button-Login.png" />
+        <image id="image8" width="943" height="219" xlink:href="./images/LoginPage/CitiBank-LOGO.png" />
+        <image id="image9" width="849" height="368" xlink:href="./images/LoginPage/Dialog.png" />
+      </defs>
+    </svg>
+    <input class="login-username-input" type="text" value="" placeholder="Username" />
+    <input class="login-password-input" type="text" value="" placeholder="Password" />
+  </div>
+</body>
+
+</html>

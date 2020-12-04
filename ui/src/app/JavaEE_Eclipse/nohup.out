@@ -1,0 +1,405 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.6.RELEASE)
+
+2020-11-26 11:34:38.511  INFO 8885 --- [           main] cn.FaceloginBootApplication              : Starting FaceloginBootApplication v0.0.1-SNAPSHOT on ip-172-31-26-225 with PID 8885 (/home/ubuntu/environment/bank-transfer-blockchain-reinvent2019-workshop/ui/src/app/facelogin_boot-0.0.1-SNAPSHOT.jar started by ubuntu in /home/ubuntu/environment/bank-transfer-blockchain-reinvent2019-workshop/ui/src/app)
+2020-11-26 11:34:38.519  INFO 8885 --- [           main] cn.FaceloginBootApplication              : No active profile set, falling back to default profiles: default
+2020-11-26 11:34:39.560  WARN 8885 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[cn]' package. Please check your configuration.
+2020-11-26 11:34:40.232  INFO 8885 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-26 11:34:40.249  INFO 8885 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 11:34:40.251  INFO 8885 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-11-26 11:34:40.319  INFO 8885 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 11:34:40.321  INFO 8885 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1711 ms
+2020-11-26 11:34:40.540  INFO 8885 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 11:34:40.705  WARN 8885 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-26 11:34:40.965  INFO 8885 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-26 11:34:40.972  INFO 8885 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-26 11:34:40.976 ERROR 8885 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-11-26 11:34:40.979  INFO 8885 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.6.RELEASE)
+
+2020-11-26 11:35:04.396  INFO 8938 --- [           main] cn.FaceloginBootApplication              : Starting FaceloginBootApplication v0.0.1-SNAPSHOT on ip-172-31-26-225 with PID 8938 (/home/ubuntu/environment/bank-transfer-blockchain-reinvent2019-workshop/ui/src/app/facelogin_boot-0.0.1-SNAPSHOT.jar started by ubuntu in /home/ubuntu/environment/bank-transfer-blockchain-reinvent2019-workshop/ui/src/app)
+2020-11-26 11:35:04.401  INFO 8938 --- [           main] cn.FaceloginBootApplication              : No active profile set, falling back to default profiles: default
+2020-11-26 11:35:05.290  WARN 8938 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[cn]' package. Please check your configuration.
+2020-11-26 11:35:05.940  INFO 8938 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-26 11:35:05.956  INFO 8938 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 11:35:05.958  INFO 8938 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-11-26 11:35:06.027  INFO 8938 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 11:35:06.029  INFO 8938 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1532 ms
+2020-11-26 11:35:06.248  INFO 8938 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 11:35:06.398  WARN 8938 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-26 11:35:06.647  INFO 8938 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-26 11:35:06.655  INFO 8938 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-26 11:35:06.658 ERROR 8938 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-11-26 11:35:06.662  INFO 8938 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.6.RELEASE)
+
+2020-11-26 11:35:10.481  INFO 8963 --- [           main] cn.FaceloginBootApplication              : Starting FaceloginBootApplication v0.0.1-SNAPSHOT on ip-172-31-26-225 with PID 8963 (/home/ubuntu/environment/bank-transfer-blockchain-reinvent2019-workshop/ui/src/app/facelogin_boot-0.0.1-SNAPSHOT.jar started by ubuntu in /home/ubuntu/environment/bank-transfer-blockchain-reinvent2019-workshop/ui/src/app)
+2020-11-26 11:35:10.486  INFO 8963 --- [           main] cn.FaceloginBootApplication              : No active profile set, falling back to default profiles: default
+2020-11-26 11:35:11.375  WARN 8963 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[cn]' package. Please check your configuration.
+2020-11-26 11:35:12.102  INFO 8963 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-26 11:35:12.117  INFO 8963 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 11:35:12.120  INFO 8963 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-11-26 11:35:12.197  INFO 8963 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 11:35:12.199  INFO 8963 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1585 ms
+2020-11-26 11:35:12.507  INFO 8963 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 11:35:12.712  WARN 8963 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-26 11:35:13.031  INFO 8963 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-26 11:35:13.060  INFO 8963 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-26 11:35:13.062 ERROR 8963 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-11-26 11:35:13.065  INFO 8963 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.6.RELEASE)
+
+2020-11-26 11:35:49.641  INFO 9019 --- [           main] cn.FaceloginBootApplication              : Starting FaceloginBootApplication v0.0.1-SNAPSHOT on ip-172-31-26-225 with PID 9019 (/home/ubuntu/environment/bank-transfer-blockchain-reinvent2019-workshop/ui/src/app/facelogin_boot-0.0.1-SNAPSHOT.jar started by ubuntu in /home/ubuntu/environment/bank-transfer-blockchain-reinvent2019-workshop/ui/src/app)
+2020-11-26 11:35:49.654  INFO 9019 --- [           main] cn.FaceloginBootApplication              : No active profile set, falling back to default profiles: default
+2020-11-26 11:35:50.447  WARN 9019 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[cn]' package. Please check your configuration.
+2020-11-26 11:35:51.113  INFO 9019 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-26 11:35:51.129  INFO 9019 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 11:35:51.131  INFO 9019 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-11-26 11:35:51.199  INFO 9019 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 11:35:51.201  INFO 9019 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1472 ms
+2020-11-26 11:35:51.465  INFO 9019 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 11:35:51.669  WARN 9019 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-26 11:35:51.969  INFO 9019 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-26 11:35:51.977  INFO 9019 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-26 11:35:51.980 ERROR 9019 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-11-26 11:35:51.984  INFO 9019 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.6.RELEASE)
+
+2020-11-26 11:36:02.366  INFO 9048 --- [           main] cn.FaceloginBootApplication              : Starting FaceloginBootApplication v0.0.1-SNAPSHOT on ip-172-31-26-225 with PID 9048 (/home/ubuntu/environment/bank-transfer-blockchain-reinvent2019-workshop/ui/src/app/facelogin_boot-0.0.1-SNAPSHOT.jar started by ubuntu in /home/ubuntu/environment/bank-transfer-blockchain-reinvent2019-workshop/ui/src/app)
+2020-11-26 11:36:02.392  INFO 9048 --- [           main] cn.FaceloginBootApplication              : No active profile set, falling back to default profiles: default
+2020-11-26 11:36:03.305  WARN 9048 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[cn]' package. Please check your configuration.
+2020-11-26 11:36:03.968  INFO 9048 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-26 11:36:03.985  INFO 9048 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 11:36:03.987  INFO 9048 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-11-26 11:36:04.064  INFO 9048 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 11:36:04.066  INFO 9048 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1579 ms
+2020-11-26 11:36:04.342  INFO 9048 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 11:36:04.532  WARN 9048 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-26 11:36:04.813  INFO 9048 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-26 11:36:04.824  INFO 9048 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-26 11:36:04.828 ERROR 9048 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-11-26 11:36:04.835  INFO 9048 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.6.RELEASE)
+
+2020-11-27 02:45:59.986  INFO 28274 --- [           main] cn.FaceloginBootApplication              : Starting FaceloginBootApplication v0.0.1-SNAPSHOT on ip-172-31-26-225 with PID 28274 (/home/ubuntu/environment/bank-transfer-blockchain-reinvent2019-workshop/ui/src/app/facelogin_boot-0.0.1-SNAPSHOT.jar started by ubuntu in /home/ubuntu/environment/bank-transfer-blockchain-reinvent2019-workshop/ui/src/app)
+2020-11-27 02:45:59.992  INFO 28274 --- [           main] cn.FaceloginBootApplication              : No active profile set, falling back to default profiles: default
+2020-11-27 02:46:00.850  WARN 28274 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[cn]' package. Please check your configuration.
+2020-11-27 02:46:01.514  INFO 28274 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-27 02:46:01.530  INFO 28274 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-27 02:46:01.532  INFO 28274 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-11-27 02:46:01.600  INFO 28274 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-27 02:46:01.603  INFO 28274 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1494 ms
+2020-11-27 02:46:01.884  INFO 28274 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-27 02:46:02.046  WARN 28274 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-27 02:46:02.295  INFO 28274 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-27 02:46:02.304  INFO 28274 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-27 02:46:02.309 ERROR 28274 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-11-27 02:46:02.313  INFO 28274 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.6.RELEASE)
+
+2020-11-27 02:46:35.494  INFO 28335 --- [           main] cn.FaceloginBootApplication              : Starting FaceloginBootApplication v0.0.1-SNAPSHOT on ip-172-31-26-225 with PID 28335 (/home/ubuntu/environment/bank-transfer-blockchain-reinvent2019-workshop/ui/src/app/facelogin_boot-0.0.1-SNAPSHOT.jar started by ubuntu in /home/ubuntu/environment/bank-transfer-blockchain-reinvent2019-workshop/ui/src/app)
+2020-11-27 02:46:35.499  INFO 28335 --- [           main] cn.FaceloginBootApplication              : No active profile set, falling back to default profiles: default
+2020-11-27 02:46:36.455  WARN 28335 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[cn]' package. Please check your configuration.
+2020-11-27 02:46:37.115  INFO 28335 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-27 02:46:37.130  INFO 28335 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-27 02:46:37.132  INFO 28335 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-11-27 02:46:37.209  INFO 28335 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-27 02:46:37.209  INFO 28335 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1615 ms
+2020-11-27 02:46:37.471  INFO 28335 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-27 02:46:37.663  WARN 28335 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-27 02:46:37.958  INFO 28335 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-27 02:46:37.968  INFO 28335 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-27 02:46:37.974 ERROR 28335 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-11-27 02:46:37.979  INFO 28335 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.6.RELEASE)
+
+2020-11-27 03:02:25.602  INFO 29191 --- [           main] cn.FaceloginBootApplication              : Starting FaceloginBootApplication v0.0.1-SNAPSHOT on ip-172-31-26-225 with PID 29191 (/home/ubuntu/environment/bank-transfer-blockchain-reinvent2019-workshop/ui/src/app/facelogin_boot-0.0.1-SNAPSHOT.jar started by ubuntu in /home/ubuntu/environment/bank-transfer-blockchain-reinvent2019-workshop/ui/src/app)
+2020-11-27 03:02:25.607  INFO 29191 --- [           main] cn.FaceloginBootApplication              : No active profile set, falling back to default profiles: default
+2020-11-27 03:02:26.439  WARN 29191 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[cn]' package. Please check your configuration.
+2020-11-27 03:02:27.096  INFO 29191 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-27 03:02:27.111  INFO 29191 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-27 03:02:27.113  INFO 29191 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-11-27 03:02:27.194  INFO 29191 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-27 03:02:27.194  INFO 29191 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1501 ms
+2020-11-27 03:02:27.487  INFO 29191 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-27 03:02:27.656  WARN 29191 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-27 03:02:27.964  INFO 29191 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-27 03:02:27.992  INFO 29191 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-27 03:02:27.997 ERROR 29191 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-11-27 03:02:28.001  INFO 29191 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.6.RELEASE)
+
+2020-11-27 03:03:41.989  INFO 29399 --- [           main] cn.FaceloginBootApplication              : Starting FaceloginBootApplication v0.0.1-SNAPSHOT on ip-172-31-26-225 with PID 29399 (/home/ubuntu/environment/bank-transfer-blockchain-reinvent2019-workshop/ui/src/app/facelogin_boot-0.0.1-SNAPSHOT.jar started by ubuntu in /home/ubuntu/environment/bank-transfer-blockchain-reinvent2019-workshop/ui/src/app)
+2020-11-27 03:03:41.993  INFO 29399 --- [           main] cn.FaceloginBootApplication              : No active profile set, falling back to default profiles: default
+2020-11-27 03:03:42.802  WARN 29399 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[cn]' package. Please check your configuration.
+2020-11-27 03:03:43.530  INFO 29399 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-27 03:03:43.544  INFO 29399 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-27 03:03:43.544  INFO 29399 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-11-27 03:03:43.611  INFO 29399 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-27 03:03:43.611  INFO 29399 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1533 ms
+2020-11-27 03:03:43.926  INFO 29399 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-27 03:03:44.128  WARN 29399 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-27 03:03:44.448  INFO 29399 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-27 03:03:44.452  INFO 29399 --- [           main] cn.FaceloginBootApplication              : Started FaceloginBootApplication in 3.185 seconds (JVM running for 3.737)
+2020-11-27 04:38:43.555  INFO 29399 --- [nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-27 04:38:43.555  INFO 29399 --- [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-27 04:38:43.563  INFO 29399 --- [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-11-27 09:53:50.411  INFO 29399 --- [nio-8080-exec-8] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:418) ~[tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:260) ~[tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_275]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_275]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_275]
+
+2020-11-28 08:13:00.750  WARN 29399 --- [nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Failure in @ExceptionHandler org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#mediaTypeNotAcceptable(HttpServletRequest)
+
+org.springframework.web.HttpMediaTypeNotAcceptableException: Could not parse 'Accept' header [/]: Invalid mime type "/": does not contain subtype after '/'
+	at org.springframework.web.accept.HeaderContentNegotiationStrategy.resolveMediaTypes(HeaderContentNegotiationStrategy.java:59) ~[spring-web-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.accept.ContentNegotiationManager.resolveMediaTypes(ContentNegotiationManager.java:128) ~[spring-web-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.getAcceptableMediaTypes(AbstractMessageConverterMethodProcessor.java:396) ~[spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:226) ~[spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:219) ~[spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82) ~[spring-web-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123) ~[spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:407) ~[spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1300) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_275]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_275]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_275]
+
+2020-11-28 08:13:00.753  WARN 29399 --- [nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not parse 'Accept' header [/]: Invalid mime type "/": does not contain subtype after '/']
+2020-11-28 23:23:44.711  INFO 29399 --- [nio-8080-exec-1] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in the HTTP protocol
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:553) ~[tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:260) ~[tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_275]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_275]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_275]
+
+2020-11-29 07:18:17.594  INFO 29399 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

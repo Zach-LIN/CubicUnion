@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+  <style>
+    input[type="text"] {
+      font-size: 24px;
+      line-height: 1;
+      color: #000;
+      border: none;
+      outline: transparent;
+      -webkit-tap-highlight-color: none;
+      background-color: transparent;
+      font-family: 'Kalam', cursive;
+    }
+
+    input::placeholder {
+      color: rgb(150, 150, 150);
+      opacity: 1;
+    }
+
+    .transfer-input {
+      position: absolute;
+      left: 12%;
+      top: 50.2%;
+      width: 17%;
+      height: 5%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <svg width="1004" height="588" viewBox="0 0 1004 588" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g id="TransferPage">
+      <rect width="1004" height="588" fill="white"/>
+      <rect id="Background" x="49" width="886" height="478.5" fill="url(#pattern0)"/>
+      <!-- <rect id="Hint" x="119" y="299" width="140.5" height="16.5" fill="url(#pattern1)"/> -->
+      <!-- <rect id="CityBank-LOGO" x="548" y="142" width="27" height="25.25" fill="url(#pattern2)"/> -->
+      <rect id="HSBC-LOGO" x="549" y="147" width="25.75" height="17.75" fill="url(#pattern3)"/>
+      <path class="hover-pointer hover-button-mask" id="Button5" d="M660.5 396L920.5 394L919 460L660.5 460.5V396Z" fill="black"/>
+      <path class="hover-pointer hover-button-mask" id="Button4" d="M362.5 398L660 395V460H362.5V398Z" fill="black"/>
+      <path class="hover-pointer hover-button-mask" id="Button3" d="M80 400.5L362 398V460H80V400.5Z" fill="black"/>
+      <path class="hover-pointer hover-button-mask" id="Button2" d="M113.21 346L328.5 346.5L328.21 377L113.21 376.5L113.21 346Z" fill="black"/>
+      <path class="hover-pointer hover-button-mask" id="Button1" d="M294.5 290.5H328.5V325.5L294.5 326V290.5Z" fill="black"/>
+      </g>
+      <defs>
+      <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+      <use xlink:href="#image0" transform="scale(0.000282167 0.000522466)"/>
+      </pattern>
+      <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+      <use xlink:href="#image1" transform="scale(0.00177936 0.0151515)"/>
+      </pattern>
+      <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+      <use xlink:href="#image2" transform="scale(0.00925926 0.00990099)"/>
+      </pattern>
+      <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
+      <use xlink:href="#image3" transform="scale(0.00970874 0.0140845)"/>
+      </pattern>
+
+        <image id="image0" width="3544" height="1914" xlink:href="./images/TransferPage/Background.png"/>
+        <image id="image1" width="562" height="66" xlink:href="./images/TransferPage/Hint.png"/>
+        <image id="image2" width="108" height="101" xlink:href="./images/TransferPage/CityBank-LOGO.png"/>
+        <image id="image3" width="103" height="71" xlink:href="./images/TransferPage/HSBC-LOGO.png"/>
+      </defs>
+    </svg>
+    <input class="transfer-input" type="text" value="" placeholder="Enter the Account" />
+  </div>
+</body>
+
+</html>

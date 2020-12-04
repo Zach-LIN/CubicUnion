@@ -1,0 +1,36 @@
+header{background-image: url(LoginPage/2HSBC-LOGO.png);}
+
+header{background-image: url(LoginPage/2Link-Forget.png);}
+
+header{background-image: url(LoginPage/2Avatar-F.png);}
+
+header{background-image: url(LoginPage/2Avatar-M.png);}
+
+header{background-image: url(LoginPage/2Background.png);}
+
+header{background-image: url(LoginPage/2Button-Login.png);}
+
+header{background-image: url(LoginPage/2CitiBank-LOGO.png);}
+
+header{background-image: url(LoginPage/2Dialog.png);}
+
+
+.navbar {
+    background-color: #1976d2;
+    z-index: 10;
+    box-shadow: 0 2px 5px 3px rgba(0,0,0,.3);
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+  
+.message {
+    padding: 1em;
+    color: red;
+}
+
+
+
+
+
+

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+  <style>
+    input::placeholder {
+      color: rgb(150, 150, 150);
+      opacity: 1;
+    }
+
+    .transfer-input {
+      position: absolute;
+      left: 12%;
+      top: 50.2%;
+      width: 17%;
+      height: 5%;
+    }
+
+    .exchange-dialog {
+      position: absolute;
+      left: 36.3%;
+      bottom: 32.3%;
+      width: 29.5%;
+      line-height: 1;
+    }
+
+    .exchange-dialog {
+      left: 36.3%;
+      bottom: 32.3%;
+      width: 29.5%;
+    }
+
+    .exchange-dialog::after {
+      height: 20% !important;
+    }
+
+    .contant-dialog {
+      left: 65.7%;
+      bottom: 32.3%;
+      width: 25.8%;
+    }
+
+    .contant-dialog::after {
+      height: 31.5% !important;
+    }
+
+    .submit-button {
+      position: absolute;
+      left: 8.3%;
+      bottom: 21.8%;
+      width: 28%;
+      height: 10.5%;
+    }
+
+    .showTransfer-button {
+      position: absolute;
+      left: 11.7%;
+      bottom: 33.5%;
+      width: 21.2%;
+      height: 5.5%;
+    }
+    
+    .messager {
+      position: absolute;
+      left: 17%;
+      bottom: 58.3%;
+
+    }
+
+    .virtual-button {
+      background-color: #000;
+      border: none;
+      outline: none;
+      -webkit-tap-highlight-color: transparent;
+      color: transparent;
+      opacity: 0;
+      transition: 300ms opacity;
+    }
+
+    .virtual-button:hover {
+      opacity: 0.2;
+    }
+
+    .forex-select {
+      position: absolute;
+      left: 22.5%;
+      bottom: 40.6%;
+      width: 10.5%;
+      height: 5.9%;
+    }
+
+    .bank-select {
+      position: absolute;
+      left: 22.5%;
+      bottom: 48.5%;
+      width: 10.5%;
+      height: 5.9%;
+    }
+
+    .virtual-select {
+      border: none;
+      background-color: transparent;
+      outline: none;
+      -webkit-tap-highlight-color: transparent;
+      appearance: none;
+      font-size: 15px;
+      font-family: 'Kalam', cursive;
+      padding-left: 2px;
+      padding-right: 3.5%;
+      color: #333;
+      text-overflow: ellipsis;
+    }
+
+    .account-input {
+      position: absolute;
+      left: 11.5%;
+      bottom: 48.5%;
+      width: 10.2%;
+      height: 6.1%;
+    }
+
+    .amount-input {
+      position: absolute;
+      left: 11.5%;
+      bottom: 40.5%;
+      width: 10.2%;
+      height: 6.1%;
+    }
+
+    .virtual-input {
+      font-size: 16px;
+      line-height: 1;
+      color: #000;
+      border: none;
+      outline: transparent;
+      -webkit-tap-highlight-color: none;
+      background-color: transparent;
+      font-family: 'Kalam', cursive;
+      appearance: none;
+      -moz-appearance: textfield;
+      padding: 0px 4px;
+      text-overflow: ellipsis;
+    }
+
+    .virtual-input::-webkit-outer-spin-button,
+    .virtual-input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  </style>
+</head>
+
+<header></header>
+
+<body>
+  <div class="container">
+    <svg width="1004" height="588" viewBox="0 0 1004 588" fill="none" xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g id="TransferPage">
+        <rect width="1004" height="588" fill="white" />
+        <rect id="Background" x="49" y="-10" width="886" height="488.5" fill="url(#pattern0)" />
+        <rect id="CityBank-LOGO" x="548" y="142" width="27" height="25.25" fill="url(#pattern1)" />
+        <!-- <rect id="HSBC-LOGO" x="549" y="147" width="25.75" height="17.75" fill="url(#pattern2)"/> -->
+      </g>
+      
+      <defs>
+        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+          <use xlink:href="#image0" transform="scale(0.000282167 0.000511771)" />
+        </pattern>
+        <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+          <use xlink:href="#image1" transform="scale(0.00925926 0.00990099)" />
+        </pattern>
+        <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+          <use xlink:href="#image2" transform="scale(0.00970874 0.0140845)" />
+        </pattern>
+
+        <image id="image0" width="3544" height="1954" xlink:href="hBackground.png" />
+        <image id="image1" width="108" height="101" xlink:href="CityBank-LOGO.png" />
+        <image id="image2" width="103" height="71" xlink:href="HSBC-LOGO.png" />
+      </defs>
+    </svg>
+    
+    <div class="exchange-dialog float-dialog">
+      <div class="float-overflow-container">
+        <div class="float-container">
+          <img src="exchange.png" />
+        </div>
+      </div>
+    </div>
+    <div class="contant-dialog float-dialog">
+      <div class="float-overflow-container">
+        <div class="float-container">
+          <img src="contant.png" />
+        </div>
+      </div>
+    </div>
+
+    <input class="account-input virtual-input"  type="text" value="" placeholder="Enter Payee Account" [(ngModel)]='toAccNum'/>
+    <input class="amount-input virtual-input" type="number" value="" placeholder="Enter Amount" [(ngModel)]='amount'/>
+
+    <select class="bank-select virtual-select" ng-model="bank_id" ng-init="bank_id='0'" [(ngModel)]="bank_id">
+      <option value="0">-Option-</option>
+      <option value="1">HSBC</option>
+      <option value="2">Citibank</option>
+      <option value="3">Alipay</option>
+      <option value="4">Wechat</option>
+      <option value="5">Standard Chartered</option>
+      <option value="6">Bank of America</option>
+    </select>
+
+    <select class="forex-select virtual-select" ng-model="forex" ng-init="foxrex='0'" [(ngModel)]="forex">
+      <option value="0">Option-</option>
+      <option value="1">USD->USD</option>
+      <option value="2">USD->HKD</option>
+      <option value="3">USD->EUR</option>
+      <option value="4">USD->AUD</option>
+      <option value="5">USD->GBP</option>
+      <option value="6">USD->CAD</option>
+      <option value="7">USD->JPY</option>
+      <option value="8">HKD->HKD</option>
+      <option value="9">HKD->USD</option>
+      <option value="10">HKD->EUR</option>
+      <option value="11">HKD->AUD</option>
+      <option value="12">HKD->GBP</option>
+      <option value="13">HKD->CAD</option>
+      <option value="14">HKD->JPY</option>
+    </select>
+
+
+    <button class="submit-button virtual-button hover-pointer" (click)="submit()">Acc Info</button>
+    <button class="showTransfer-button virtual-button hover-pointer" (click)="makeTransfer()">Make a Transfer</button>
+    <div class="messager" style="color:#FF0000">{{message}} </div>
+    
+  </div>
+</body>
+
+</html>

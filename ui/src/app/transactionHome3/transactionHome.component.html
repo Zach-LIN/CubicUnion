@@ -1,0 +1,23 @@
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<nav class="navbar navbar-expand-sm justify-content-center">
+    <a href=# class="navbar-brand">
+        <h1 class="bankName">{{bank_name}}</h1>
+    </a>
+
+</nav>
+
+<button type="submit" x="400" y="360" style="width:100px; height:30px;" class="btn-btn-primary" (click)="submit()">Back</button>
+<button type="submit" x="400" y="360" style="width:100px; height:30px;" class="btn-btn-primary" (click)="submit_USD()">USD</button>
+<button type="submit" x="400" y="360" style="width:100px; height:30px;" class="btn-btn-primary" (click)="submit_HKD()">HKD</button>
+<div class="container">
+
+    <app-account2 accNum={{accNum}}></app-account2>
+    <br/>
+    <br/>
+    <app-transactions2 accNum={{accNum}}></app-transactions2>
+
+
+</div>
